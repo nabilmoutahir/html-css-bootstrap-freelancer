@@ -10,6 +10,11 @@
     text-align: center;
 }
 
+.bordered2 {
+    border: 1px solid black;
+    background-color: cornflowerblue;
+}
+
 .folio_card {
     border: 1px solid black;
     background-color: gray;
