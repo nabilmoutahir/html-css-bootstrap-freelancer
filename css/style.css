@@ -1,0 +1,19 @@
+.bordered {
+    border: 3px dashed red;
+    height: 100%;
+}
+
+.bordered1 {
+    border: 1px solid black;
+    background-color: red;
+    text-align: center;
+    height: 50px;
+}
+
+
+
+.folio_card {
+    height: 50px;
+    background-color: gray;
+    text-align: center;
+}
