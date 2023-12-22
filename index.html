@@ -16,7 +16,7 @@
 </head>
 <body>
     <!-- HEADER -->
-    <header id="header">
+    <header id="header" class="py-4 text-white">
         <!-- NAVBAR -->
         <div class="container d-flex justify-content-between align-items-center">
             <h2>
@@ -46,21 +46,29 @@
     <!-- MAIN -->
     <main>
         <!-- START -->
-        <div id="start">
+        <div id="start" class="py-3 text-white">
             <div class="container text-center">
                 <div class="avatar">
                     <img src="./img/avatar.svg" alt="">
                 </div>
     
-                <h1>
+                <h1 class="py-3">
                     START BOOTSTRAP
                 </h1>
             
-                <div>
-                    IMG
+                <div class="d-flex justify-content-center align-items-center">
+                    <div class="lines rounded-3">
+                    </div>
+
+                    <div class="fs-1 px-2">
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <div class="lines rounded-3">
+                    </div>
                 </div>
                 
-                <div>
+                <div class="py-3 fs-5">
                     GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR
                 </div>
             </div>
@@ -68,38 +76,59 @@
 
         <!-- PORTFOLIO -->
         <div id="portfolio">
-            <div class="container text-center">
-                <h3 class="">
+            <div class="container text-center py-5">
+                <h2 class="py-2">
                     PORTFOLIO
-                </h3>
+                </h2>
     
-                <div class="">
-                    SYMBOLS
+                <div class="d-flex justify-content-center align-items-center">
+                    <div class="lines2 rounded-3">
+                    </div>
+
+                    <div class="fs-1 px-2">
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <div class="lines2 rounded-3">
+                    </div>
                 </div>
+                
     
                 <div class="row d-flex">
                     <div class="col-12 col-md-6 col-lg-4 py-3">
-                        <img class="portfolio_logo rounded-4" src="./img/cabin.png" alt="">
+                        <div>
+                            <img class="portfolio_logo rounded-4" src="./img/cabin.png" alt="">
+                        </div>
                     </div>
                     
                     <div class="col-12 col-md-6 col-lg-4 py-3">
-                        <img class="portfolio_logo rounded-4" src="./img/cake.png" alt="">
+                        <div>
+                            <img class="portfolio_logo rounded-4" src="./img/cake.png" alt="">
+                        </div>
                     </div>
     
                     <div class="col-12 col-md-6 col-lg-4 py-3">
-                        <img class="portfolio_logo rounded-4" src="./img/circus.png" alt="">
+                        <div>
+                            <img class="portfolio_logo rounded-4" src="./img/circus.png" alt="">
+                        </div>
                     </div>
     
                     <div class="col-12 col-md-6 col-lg-4 py-3">
-                        <img class="portfolio_logo rounded-4" src="./img/game.png" alt="">
+                        <div>
+                            <img class="portfolio_logo rounded-4" src="./img/game.png" alt="">
+                        </div>
                     </div>
     
                     <div class="col-12 col-md-6 col-lg-4 py-3">
-                        <img class="portfolio_logo rounded-4" src="./img/safe.png" alt="">
+                        <div>
+                            <img class="portfolio_logo rounded-4" src="./img/safe.png" alt="">
+                        </div>
                     </div>
     
                     <div class="col-12 col-md-6 col-lg-4 py-3">
-                        <img class="portfolio_logo rounded-4" src="./img/submarine.png" alt="">
+                        <div>
+                            <img class="portfolio_logo rounded-4" src="./img/submarine.png" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -107,28 +136,37 @@
         
 
         <!-- ABOUT -->
-        <div id="about">
-            <div class="container text-center">
-                <h3>
+        <div id="about" class="text-white">
+            <div class="container text-center p-5">
+                <h2 class="">
                     ABOUT
-                </h3>
+                </h2>
             
-                <div>
-                    SYMBOLS
+                <div class="d-flex justify-content-center align-items-center">
+                    <div class="lines rounded-3">
+                    </div>
+
+                    <div class="fs-1 px-2">
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <div class="lines rounded-3">
+                    </div>
                 </div>
         
-                <div class="d-flex flex-wrap text-start">
-                    <div class="col-12 col-md-6 py-2">
+                <div class="row d-flex flex-wrap text-start fs-5 px-5">
+                    <div class="col-12 col-md-6 py-4">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore vero optio debitis iste officiis ullam. Quasi ullam dicta nobis cupiditate corrupti, cumque accusamus et fuga vel quas ab aut omnis.
                     </div>
 
-                    <div class="col-12 col-md-6 py-2">
+                    <div class="col-12 col-md-6 py-4">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, quod dolorum placeat quia qui nobis quasi vel odit voluptatum cum non alias unde! Incidunt molestiae fuga sequi nisi dignissimos ad.
                     </div>
                 </div>
 
                 <div>
-                    <a href="">
+                    <a class="text-decoration-none text-white" href="">
+                        <i class="fa-solid fa-download"></i>
                         Download
                     </a>
                 </div>
@@ -174,62 +212,64 @@
     </main>
 
     <footer>
-        <div class="container text-center d-flex flex-wrap">
-            <div class="col-12 col-md-4 py-3">
-                <div>
-                    LOCATION
-                </div>
-
-                <div>
-                    Lorem ipsum dolor sit amet consectetur adipisicing.
-                </div>
-            </div>
-
-            <div class="col-12 col-md-4 py-3">
-                <div>
-                    AROUND THE WEB
-                </div>
-
-                <div class="d-flex justify-content-center">
+        <div class="container">
+            <div class="row text-center d-flex flex-wrap">
+                <div class="col-12 col-md-4 py-3">
                     <div>
-                        <a href="">
-                            FB
-                        </a>
-                    </div>
-                    
-                    <div>
-                        <a href="">
-                            FB
-                        </a>
+                        LOCATION
                     </div>
 
                     <div>
-                        <a href="">
-                            FB
-                        </a>
+                        Lorem ipsum dolor sit amet consectetur adipisicing.
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 py-3">
+                    <div>
+                        AROUND THE WEB
+                    </div>
+
+                    <div class="d-flex justify-content-center">
+                        <div>
+                            <a href="">
+                                FB
+                            </a>
+                        </div>
+                        
+                        <div>
+                            <a href="">
+                                FB
+                            </a>
+                        </div>
+
+                        <div>
+                            <a href="">
+                                FB
+                            </a>
+                        </div>
+
+                        <div>
+                            <a href="">
+                                FB
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 py-3">
+                    <div>
+                        ABOUT FREELANCER
                     </div>
 
                     <div>
+                        <span>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                        </span>
+
                         <a href="">
-                            FB
+                            Accusamus sapiente natus totam.
                         </a>
                     </div>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-4 py-3">
-                <div>
-                    ABOUT FREELANCER
-                </div>
-
-                <div>
-                    <span>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                    </span>
-
-                    <a href="">
-                        Accusamus sapiente natus totam.
-                    </a>
                 </div>
             </div>
         </div>
