@@ -24,8 +24,10 @@
             </h2>
                 
             <div class="d-flex gap-4">  
-                <div class="hamb_menu d-md-none rounded-2 px-3 fs-2">
-                    <i class="fa-solid fa-bars"></i>
+                <div class="hamb_menu d-md-none rounded-3 fs-2">
+                    <button class="px-3 rounded-3">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
                 </div>
                 
                 <div class="d-none d-md-block">
@@ -175,37 +177,61 @@
         
         <!-- CONTACT ME -->
         <div id="contact">
-            <div class="container text-center">
-                <h3>
+            <div class="container text-center p-5">
+                <h2 class="py-3">
                     CONTACT ME
-                </h3>
+                </h2>
                    
-                <div>
-                    SYMBOLS
+                <div class="d-flex justify-content-center align-items-center">
+                    <div class="lines2 rounded-3">
+                    </div>
+
+                    <div class="fs-1 px-2">
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <div class="lines2 rounded-3">
+                    </div>
                 </div>
                    
-                <div class="text-start">
-                    <div>
-                        Name
-                    </div>
-
-                    <div>
-                        Email Address
-                    </div>
-
-                    <div>
-                        Phone Number
-                    </div>
-
-                    <div>
-                        Message
-                    </div>
-       
-                    <div>
-                        <a href="">
-                            Send
-                        </a>
-                    </div>
+                <div class="text-start fs-4 px-5">
+                    <form action="">
+                        <div class="py-3">
+                            <label for="">Name</label>
+                            <div class="input">
+                                <input class="p-0" type="text">
+                            </div>
+                        </div>
+    
+                        <div class="py-3">
+                            <label for="">Email Address</label>
+                            <div class="input">
+                                <input class="p-0" type="email">
+                            </div>
+                        </div>
+    
+                        <div class="py-3">
+                            <label for="">Phone Number</label>
+                            <div class="input">
+                                <input class="p-0" type="tel">
+                            </div>
+                        </div>
+    
+                        <div class="py-3">
+                            <label for="">Message</label>
+                            <div class="input">
+                                <textarea class="p-0" name="" id="" cols="30" rows="5"></textarea>
+                            </div>
+                        </div>
+                        
+                        <div class="py-3">
+                            <button class="button_send rounded-3 border-0 py-3 px-4 fs-3" type="submit">
+                                <a class="text-decoration-none text-white" href="">
+                                    Send
+                                </a>
+                            </button>
+                        </div>  
+                    </form>
                 </div>    
             </div>
         </div>
